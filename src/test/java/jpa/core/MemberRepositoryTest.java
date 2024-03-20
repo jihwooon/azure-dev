@@ -3,6 +3,7 @@ package jpa.core;
 import static org.assertj.core.api.Assertions.assertThat;
 
 import jakarta.transaction.Transactional;
+import jpa.core.domain.Member;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

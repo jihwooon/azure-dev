@@ -2,6 +2,7 @@ package jpa.core;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
+import jpa.core.domain.Member;
 import org.springframework.stereotype.Repository;
 
 @Repository
